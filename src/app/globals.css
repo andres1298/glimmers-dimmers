@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f0e3;
+  --surface: #fffdf8;
+  --foreground: #24190f;
+  --muted: #8a7d6f;
+  --border: #e7dcc8;
+
+  --glimmer-bg: #f7dfa4;
+  --glimmer-border: #c98a2e;
+  --glimmer-ink: #8a4a12;
+
+  --dimmer-bg: #e2d9ef;
+  --dimmer-border: #4f3a63;
+  --dimmer-ink: #4f3a63;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+
+  --color-glimmer-bg: var(--glimmer-bg);
+  --color-glimmer-border: var(--glimmer-border);
+  --color-glimmer-ink: var(--glimmer-ink);
+
+  --color-dimmer-bg: var(--dimmer-bg);
+  --color-dimmer-border: var(--dimmer-border);
+  --color-dimmer-ink: var(--dimmer-ink);
+
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
